@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Automate workflows without writing code"
+	subtitle="Connect your systems and eliminate repetitive tasks with pre-built templates trusted by operations teams at scaling companies"
+	imageSrc="/generated/image-a-group-of-diverse-operations-team-membe.webp"
+	callsToAction={[
+		{
+			href: "/start",
+			label: "Start automating"
+		},
+		{
+			href: "/templates",
+			label: "Browse templates"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by operations teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/airtable.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/slack.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/webflow.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
